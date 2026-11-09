@@ -19,7 +19,7 @@ jobs:
       - name: Prepare source
         run: |
           mkdir source
-          unzip -q ETS3Assistant-v0.6.4-cloud-build-flat.zip -d source
+          unzip -q "ETS3Assistant-v0.7.0-alpha-GitHub工程.zip" -d source
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
